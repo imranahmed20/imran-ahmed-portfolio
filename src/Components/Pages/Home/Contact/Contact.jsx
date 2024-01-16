@@ -5,12 +5,13 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
     return (
-        <div style={{ marginTop: "150px" }}>
-            <h1 className='text-3xl font-semibold text-center ' style={{ color: "#fec544", marginBottom: '50px', }}>CONTACT</h1>
+        <div id="contact" style={{ marginTop: "150px" }}>
+            <h1 data-aos="fade-up" className='text-3xl font-semibold text-center ' style={{ color: "#fec544", marginBottom: '50px', }}>CONTACT</h1>
             <div className="hero min-h-screen">
                 <div className="grid md:grid-cols-2 gap-5">
 
-                    <div className="card  w-full  ">
+                    <div data-aos="fade-up"
+                        data-aos-duration="3000" className="card  w-full  ">
                         <h1 className="text-4xl font-semibold mb-2">Just say Hello</h1>
                         <form className="card-body" >
                             <div className="form-control mb-5" >
@@ -29,7 +30,8 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="text-center lg:text-left">
+                    <div data-aos="fade-up"
+                        data-aos-duration="3000" className="text-center lg:text-left">
                         <h1 className="text-4xl font-semibold mb-8">Contact Info</h1>
                         <p className="text-lg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat.</p>
                         <div className="flex items-center mt-5 mb-5">

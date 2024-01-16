@@ -2,10 +2,11 @@
 
 const Resume = () => {
     return (
-        <div style={{ marginTop: "130px" }}>
-            <h1 className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>RESUME</h1>
+        <div id="resume" style={{ marginTop: "130px" }}>
+            <h1 data-aos="fade-up" className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>RESUME</h1>
             <div className="grid md:grid-cols-2 mt-16 gap-8">
-                <div>
+                <div data-aos="fade-up"
+                    data-aos-duration="3000">
                     <div className="flex">
                         <img src="https://devis-react.vercel.app/images/icon/resume-icon1.png" alt="" />
                         <h1 className="text-4xl font-semibold  ml-8">Education</h1>
@@ -23,7 +24,8 @@ const Resume = () => {
                     <p className="text-2xl font semibold mt-3 mb-3">XYZ Institution</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis.</p>
                 </div>
-                <div>
+                <div data-aos="fade-up"
+                    data-aos-duration="3000">
                     <div className="flex ">
                         <img src="https://devis-react.vercel.app/images/icon/resume-icon2.png" alt="" />
                         <h1 className="text-4xl font-semibold ml-8"> Experience</h1>

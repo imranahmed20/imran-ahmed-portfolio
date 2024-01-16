@@ -1,14 +1,15 @@
 import image from '../../../../assets/images/imran.jpeg'
 const About = () => {
     return (
-        <div style={{ marginTop: "90px" }}>
-            <h1 className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>ABOUT ME</h1>
+        <div id="about" style={{ marginTop: "90px" }}>
+            <h1 data-aos="fade-up"
+                data-aos-duration="1000" className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>ABOUT ME</h1>
 
             <div className='grid md:grid-cols-2 mt-8'>
-                <div>
+                <div data-aos="zoom-in">
                     <img src={image} alt="" />
                 </div>
-                <div>
+                <div data-aos="zoom-in-left">
                     <h1 className='text-4xl font-semibold mt-5 mb-3'>Hi There! I am Imran Ahmed</h1>
                     <h3 className='text-xl font-semibold mb-3' style={{ color: "#fec544" }}>Front End Web Developer</h3>
                     <p className='text-lg' style={{ color: "#a9adb8" }}>I am a Visual Designer with a strong focus on digital branding. Visul design seeks to attract, inspire, create desires and otivate people to respond to messages, with a view to making a favorable impact.</p>

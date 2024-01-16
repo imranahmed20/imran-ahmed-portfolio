@@ -3,10 +3,10 @@ import image1 from '../../../../assets/images/Screenshot_6.png'
 import './Project.css'
 const Project = () => {
     return (
-        <div>
-            <h1 className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>PROJECT</h1>
+        <div id="projects">
+            <h1 data-aos="fade-up" className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>PROJECT</h1>
             <div className='grid md:grid-cols-3 gap-5'>
-                <div className="card card-compact w-96 ">
+                <div data-aos="zoom-in" className="card card-compact w-96 ">
                     <figure className='image-wrap'>
                         <img src={image1} alt="Shoes" />
                     </figure>
@@ -45,7 +45,7 @@ const Project = () => {
                         </div>
                     </dialog>
                 </div>
-                <div className="card card-compact w-96 ">
+                <div data-aos="zoom-in" className="card card-compact w-96 ">
                     <figure className='image-wrap'>
                         <img src={image1} alt="Shoes" />
                     </figure>
@@ -84,7 +84,7 @@ const Project = () => {
                         </div>
                     </dialog>
                 </div>
-                <div className="card card-compact w-96 ">
+                <div data-aos="zoom-in" className="card card-compact w-96 ">
                     <figure className='image-wrap'>
                         <img src={image1} alt="Shoes" />
                     </figure>

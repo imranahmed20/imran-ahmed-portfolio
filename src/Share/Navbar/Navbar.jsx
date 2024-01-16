@@ -1,12 +1,13 @@
 
 const Navbar = () => {
     const navItem = <>
-        <li><a>HOME</a></li>
-        <li><a>ABOUT</a></li>
-        <li><a>RESUME</a></li>
-        <li><a>PORTFOLIO</a></li>
-        <li><a>BLOG</a></li>
-        <li><a>CONTACT</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/#about">ABOUT</a></li>
+        <li><a href="/#service">SERVICE</a></li>
+        <li><a href="/#skills">SKILLS</a></li>
+        <li><a href="/#projects">PROJECTS</a></li>
+        <li><a href="/#resume">RESUME</a></li>
+        <li><a href="/#contact">CONTACT</a></li>
     </>
     return (
         <div className="fixed  w-full z-10  navbar mb-5" style={{ backgroundColor: "#0a101e" }}>
@@ -27,7 +28,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end mr-5">
-                <a className="btn">Here me</a>
+                <a href='/#contact' className="btn">Here me</a>
             </div>
         </div>
     );
