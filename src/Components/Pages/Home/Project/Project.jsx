@@ -1,5 +1,7 @@
 import { FaGithub, FaServer, FaExternalLinkAlt } from 'react-icons/fa';
 import image1 from '../../../../assets/images/Screenshot_6.png'
+import image2 from '../../../../assets/images/Screenshot_8.png'
+import image3 from '../../../../assets/images/Screenshot_9.png'
 import './Project.css'
 const Project = () => {
     return (
@@ -47,7 +49,7 @@ const Project = () => {
                 </div>
                 <div data-aos="zoom-in" className="card card-compact w-96 ">
                     <figure className='image-wrap'>
-                        <img src={image1} alt="Shoes" />
+                        <img src={image2} alt="Shoes" />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Chef Recipe</h2>
@@ -86,7 +88,7 @@ const Project = () => {
                 </div>
                 <div data-aos="zoom-in" className="card card-compact w-96 ">
                     <figure className='image-wrap'>
-                        <img src={image1} alt="Shoes" />
+                        <img src={image3} alt="Shoes" />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">Chef Recipe</h2>
