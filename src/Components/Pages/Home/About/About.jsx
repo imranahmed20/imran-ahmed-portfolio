@@ -18,7 +18,7 @@ const About = () => {
                         <p className='text-xl mt-5'><span className='mr-8'>Birthday </span> :  <span className='ml-1'>April 17, 2001</span></p>
                         <p className='text-xl mt-3'>
                             <span className='mr-12'>Phone </span> :  <span className='ml-1'>
-                                01300193867
+                               01724641694
                             </span>
                         </p>
                         <p className='text-xl mt-3'>
