@@ -6,7 +6,6 @@ const Navbar = () => {
         <li><a href="/#service">SERVICE</a></li>
         <li><a href="/#skills">SKILLS</a></li>
         <li><a href="/#projects">PROJECTS</a></li>
-        <li><a href="/#resume">RESUME</a></li>
         <li><a href="/#contact">CONTACT</a></li>
     </>
     return (
@@ -20,7 +19,7 @@ const Navbar = () => {
                         {navItem}
                     </ul>
                 </div>
-                <a className=" text-xl">Imran Ahmed</a>
+                <a style={{ color: "#fec544" }} className="font-bold text-2xl">Imran Ahmed</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -28,7 +27,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end mr-5">
-                <a href='/#contact' className="btn">Here me</a>
+                <a href='/#contact' className="btn bg-orange-600 text-white">Contact With Me</a>
             </div>
         </div>
     );

@@ -14,8 +14,8 @@ const Service = () => {
                 <div data-aos="zoom-in-right" className="card w-96" style={{ backgroundColor: "#101624" }}>
                     <figure><img className='rounded-full mx-auto mt-16 border w-24 h-24 p-4 border-orange-300' src={icon1} alt="Shoes" /></figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title text-center mb-4">Sketches</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <h2 className="card-title text-center mb-4">Webdesign</h2>
+                        <p>Web design refers to the design of websites. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.</p>
 
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const Service = () => {
                     <figure><img className='rounded-full mx-auto mt-16 border w-24 h-24 p-4 border-orange-300' src={icon2} alt="Shoes" /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-center mb-4">UI/UX Design</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <p>Effective UI/UX design seamlessly integrates functionality with aesthetics, ensuring users can navigate an interface intuitively while enjoying a visually pleasing experience. Prioritizing user feedback and iterative testing allows designers to create products that not only meet user needs but also exceed their expectations.</p>
 
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Service = () => {
                     <figure><img className='rounded-full mx-auto mt-16 border w-24 h-24 p-4 border-orange-300' src={icon3} alt="Shoes" /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-center mb-4">Product Design</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <p>Product design blends creativity with practicality, transforming innovative ideas into tangible items that are both functional and aesthetically pleasing. By focusing on user needs and employing iterative prototyping, designers can develop products that enhance everyday life and deliver exceptional value.</p>
 
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const Service = () => {
                     <figure><img className='rounded-full mx-auto mt-16 border w-24 h-24 p-4 border-orange-300' src={icon4} alt="Shoes" /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-center mb-4">App Design</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <p>App design begins with a user-centric approach, emphasizing the importance of understanding the target audience needs, preferences, and behaviors. By conducting thorough research and creating user personas, designers can ensure that the app resonates with its intended users. </p>
 
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Service = () => {
                     <figure><img className='rounded-full mx-auto mt-16 border w-24 h-24 p-4 border-orange-300' src={icon5} alt="Shoes" /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-center mb-4">Motion Graphics</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <p>Motion graphics combine visual design and animation to create dynamic content that captures and retains audience attention. By using movement, color, and sound, motion graphics can effectively convey complex messages and enhance storytelling in a visually engaging manner.</p>
 
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Service = () => {
                     <figure><img className='rounded-full mx-auto mt-16 border w-24 h-24 p-4 border-orange-300' src={icon6} alt="Shoes" /></figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-center mb-4">Responsive Design</h2>
-                        <p>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</p>
+                        <p>Responsive design ensures that a website or application adapts seamlessly to different screen sizes and devices, providing an optimal user experience regardless of the platform. By employing flexible layouts, images, and CSS media queries, designers create interfaces that maintain functionality and aesthetics across desktops, tablets, and smartphones.</p>
 
                     </div>
                 </div>

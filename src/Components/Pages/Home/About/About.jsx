@@ -1,4 +1,5 @@
-import image from '../../../../assets/images/imran.jpeg'
+import image from '../../../../assets/images/image.png'
+import resume from '../../../../assets/images/_Imran Resume .pdf'
 const About = () => {
     return (
         <div id="about" style={{ marginTop: "90px" }}>
@@ -12,26 +13,35 @@ const About = () => {
                 <div data-aos="zoom-in-left">
                     <h1 className='text-4xl font-semibold mt-5 mb-3'>Hi There! I am Imran Ahmed</h1>
                     <h3 className='text-xl font-semibold mb-3' style={{ color: "#fec544" }}>Front End Web Developer</h3>
-                    <p className='text-lg' style={{ color: "#a9adb8" }}>I am a Visual Designer with a strong focus on digital branding. Visul design seeks to attract, inspire, create desires and otivate people to respond to messages, with a view to making a favorable impact.</p>
+                    <p className='text-lg' style={{ color: "#a9adb8" }}>Step into my digital realm where creativity meets functionality! As a fervent web developer specializing in JavaScript, React, and Next.js, I craft immersive online experiences that captivate and inspire. Dive into my portfolio to witness the fusion of cutting-edge technology with visionary design. Let embark on a journey together, shaping the digital landscape one pixel at a time.</p>
                     <div style={{ color: "#a9adb8" }}>
-                        <p className='text-xl mt-5'><span className='mr-8'>Birthday </span> :  <span className='ml-1'>May 07, 1990</span></p>
+                        <p className='text-xl mt-5'><span className='mr-8'>Birthday </span> :  <span className='ml-1'>April 17, 2001</span></p>
                         <p className='text-xl mt-3'>
-                            <span className='mr-12'>Phone </span> :  <span className='ml-1'>+1 876-369-9009</span>
+                            <span className='mr-12'>Phone </span> :  <span className='ml-1'>
+                                01300193867
+                            </span>
                         </p>
                         <p className='text-xl mt-3'>
-                            <span className='mr-14'>Email </span> :  <span className='ml-1'>devis@example.com</span>
+                            <span className='mr-14'>Email </span> :  <span className='ml-1'>
+                                amdimran328@gamil.com
+                            </span>
                         </p>
                         <p className='text-xl mt-3'>
-                            <span className='mr-14'>From </span> :  <span className='ml-1'>2661 Hich meadow lane bear creek</span>
+                            <span className='mr-14'>From </span> :  <span className='ml-1'>2661 Kaunia, Rangpur, Bangladesh</span>
                         </p>
                         <p className='text-xl mt-3'>
-                            <span className='mr-4'>Language </span> :  <span className='ml-1'>English, Germanic</span>
+                            <span className='mr-4'>Language </span> :  <span className='ml-1'>English, Bangla, Hindi</span>
                         </p>
                         <p className='text-xl mt-3 mb-8'>
                             <span className='mr-4'>Freelance </span> :  <span className='ml-1'>Available</span>
                         </p>
                     </div>
-                    <button className="btn btn-warning rounded-full font-semibold text-base">Download CV</button>
+                    <a target='_blank' download="Imran Ahmed Resume" href={resume} rel="noreferrer" >
+                        <button className="btn btn-warning rounded-full font-semibold text-base">
+                            Download Resume
+                        </button>
+                    </a>
+
 
                 </div>
             </div>

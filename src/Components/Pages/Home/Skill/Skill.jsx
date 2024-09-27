@@ -8,7 +8,7 @@ const Skill = () => {
                 <div data-aos="fade-up"
                     data-aos-duration="3000">
                     <h1 className="text-4xl font-semibold mb-8">All the skills that I have in that field of work are mentioned.</h1>
-                    <p className="text-lg" style={{ color: "#a9adb8" }}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <p className="text-lg" style={{ color: "#a9adb8" }}>A motivated, newly graduated Computer Science professional with a strong background in full-stack web development, proficient in React.js, PHP, and Express.js. Excellent written and verbal communication skills with a knack for problem-solving. Eager to contribute to innovative projects and collaborate in dynamic team environments</p>
                 </div>
                 <div>
                     <div data-aos="fade-up" className="flex justify-between">
