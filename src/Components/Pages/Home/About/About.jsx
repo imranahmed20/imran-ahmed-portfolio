@@ -10,15 +10,15 @@ const About = () => {
                 <div data-aos="zoom-in">
                     <img src={image} alt="" />
                 </div>
-                <div data-aos="zoom-in-left">
+                <div data-aos="zoom-in-left" className='p-10'>
                     <h1 className='text-4xl font-semibold mt-5 mb-3'>Hi There! I am Imran Ahmed</h1>
                     <h3 className='text-xl font-semibold mb-3' style={{ color: "#fec544" }}>Front End Web Developer</h3>
-                    <p className='text-lg' style={{ color: "#a9adb8" }}>Step into my digital realm where creativity meets functionality! As a fervent web developer specializing in JavaScript, React, and Next.js, I craft immersive online experiences that captivate and inspire. Dive into my portfolio to witness the fusion of cutting-edge technology with visionary design. Let embark on a journey together, shaping the digital landscape one pixel at a time.</p>
+                    <p className='text-lg ' style={{ color: "#a9adb8" }}>Step into my digital realm where creativity meets functionality! As a fervent web developer specializing in JavaScript, React, and Next.js, I craft immersive online experiences that captivate and inspire. Dive into my portfolio to witness the fusion of cutting-edge technology with visionary design. Let embark on a journey together, shaping the digital landscape one pixel at a time.</p>
                     <div style={{ color: "#a9adb8" }}>
                         <p className='text-xl mt-5'><span className='mr-8'>Birthday </span> :  <span className='ml-1'>April 17, 2001</span></p>
                         <p className='text-xl mt-3'>
                             <span className='mr-12'>Phone </span> :  <span className='ml-1'>
-                               01724641694
+                                01724641694
                             </span>
                         </p>
                         <p className='text-xl mt-3'>

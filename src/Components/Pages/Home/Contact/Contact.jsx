@@ -36,7 +36,7 @@ const Contact = () => {
     return (
         <div id="contact" style={{ marginTop: "150px" }}>
             <h1 data-aos="fade-up" className='text-3xl font-semibold text-center ' style={{ color: "#fec544", marginBottom: '50px', }}>CONTACT</h1>
-            <div className="flex flex-col lg:flex-row-reverse min-h-screen gap-5">
+            <div className="flex flex-col lg:flex-row-reverse min-h-screen gap-5 p-6">
                 <div data-aos="fade-up"
                     data-aos-duration="3000" className="card  w-full  ">
                     <h1 className="text-4xl font-semibold mb-2">Just say Hello</h1>

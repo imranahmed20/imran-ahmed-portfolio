@@ -4,7 +4,7 @@ const Skill = () => {
         <div id="skills" style={{ marginTop: "130px", marginBottom: "110px" }}>
             <h1 data-aos="fade-up"
                 data-aos-duration="1000" className='text-3xl font-bold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>SKILLS</h1>
-            <div className="grid md:grid-cols-2 gap-8 mt-16">
+            <div className="grid md:grid-cols-2 gap-8 mt-16 p-10">
                 <div data-aos="fade-up"
                     data-aos-duration="3000">
                     <h1 className="text-4xl font-semibold mb-8">All the skills that I have in that field of work are mentioned.</h1>
