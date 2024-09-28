@@ -10,7 +10,7 @@ const Service = () => {
         <div id="service" style={{ marginTop: "90px" }}>
             <h1 data-aos="fade-up"
                 data-aos-duration="1000" className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>SERVICES</h1>
-            <div className="grid md:grid-cols-3 gap-5 mt-16">
+            <div className="grid md:grid-cols-3 gap-5 mt-16 px-5">
                 <div data-aos="zoom-in-right" className="card w-96" style={{ backgroundColor: "#101624" }}>
                     <figure><img className='rounded-full mx-auto mt-16 border w-24 h-24 p-4 border-orange-300' src={icon1} alt="Shoes" /></figure>
                     <div className="card-body items-center text-center">

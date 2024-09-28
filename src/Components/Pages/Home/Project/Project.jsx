@@ -7,7 +7,7 @@ const Project = () => {
     return (
         <div id="projects">
             <h1 data-aos="fade-up" className='text-3xl font-semibold text-center' style={{ marginBottom: '50px', color: "#fec544" }}>PROJECT</h1>
-            <div className='grid md:grid-cols-3 gap-5 px-5'>
+            <div className='grid md:grid-cols-3 gap-5'>
                 <div data-aos="zoom-in" className="card card-compact w-96 ">
                     <figure className='image-wrap'>
                         <img src={image1} alt="Shoes" />
